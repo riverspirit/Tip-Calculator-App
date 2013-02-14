@@ -22,39 +22,37 @@
                     Tip Calculator
                 </h3>
             </div>
-            <div data-role="content">
-                <div data-role="fieldcontain">
-                    <fieldset data-role="controlgroup">
+            <div data-role="content"  data-content-theme="b">
+                    
+                    <fieldset data-role="controlgroup" class="numPeopleContainer">
                         <label for="numPeople">
                             No. of people
                         </label>
                         <input name="numPeople" id="numPeople" placeholder="" value="1" type="number" />
                     </fieldset>
-                </div>
-                <div data-role="fieldcontain">
-                    <fieldset data-role="controlgroup">
+
+                    <fieldset data-role="controlgroup" class="totalAmountContainer">
                         <label for="totalAmount">
                             Total Amount
                         </label>
                         <input name="totalAmount" id="totalAmount" placeholder="" value="" type="number" />
                     </fieldset>
-                </div>
-                <div data-role="fieldcontain">
+
                     <fieldset data-role="controlgroup">
                         <label for="tipPercentage">
                             Tip Percentage
                         </label>
                         <input id="tipPercentage" name="slider" value="15" min="0" max="100" data-highlight="false" type="range" />
                     </fieldset>
-                </div>
+
                 <h3>
                     Amount each person need to pay
                 </h3>
-                <h2 id="totalAmountPayableByOne">
+                <h2 id="totalAmountPayableByOne" class="totalAmountPayableByOne">
                     20.50
                 </h2>
-                <h4>
-                    18.50 + 2.00 tip
+                <h4 id="divisionSplitup" class="divisionSplitup">
+                    <span id="splitupActualAmount">18.50</span> + <span id="splitupTip">2.00</span> tip
                 </h4>
             </div>
         </div>
