@@ -3,7 +3,7 @@ $(document).ready(function () {
 		do_the_math();
 	});
 
-	$('body').on('change', '#tipPercentage', function () {
+	$('body').on('change', '#tipPercentage, #numPeople, #totalAmount', function () {
 		do_the_math();
 	});
 
