@@ -1,14 +1,14 @@
 {
   "name": "Tip Calculator",
   "description": "Tip calculator.",
-  "launch_path": "/JS",
+  "launch_path": "/",
   "icons": {
     "64": "/images/app_icon_64.png",
     "128": "/images/app_icon_128.png"
   },
   "developer": {
     "name": "jsx",
-    "url": "http://rebugged.com/tipcalc/"
+    "url": "http://foxtip.rebugged.com/"
   },
   "default_locale": "en"
 }
