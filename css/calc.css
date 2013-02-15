@@ -1,0 +1,19 @@
+.numPeopleContainer {
+	float: left;
+	width: 47%;
+}
+
+.totalAmountContainer {
+	float: right;
+	width: 47%;
+}
+
+.totalAmountPayableByOne {
+	font-size: 30px;
+	text-align: center;
+}
+
+.divisionSplitup {
+	font-size: 20px;
+	text-align: center;
+}
